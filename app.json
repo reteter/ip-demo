@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Counter Demo",
+    "slug": "counter-demo",
+    "version": "1.0.0",
+    "platforms": ["ios"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ipdemo.counterdemo",
+      "buildNumber": "1"
+    }
+  }
+}
