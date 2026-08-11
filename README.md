@@ -14,8 +14,9 @@ npm run check:expo
 ```
 
 Do szybkiego sprawdzenia interfejsu można uruchomić `npm start` i otworzyć projekt
-w Expo Go. Natywny build iOS wymaga Xcode, dlatego wykonuje go GitHub Actions na
-runnerze macOS — lokalny Mac ani EAS Build nie są używane.
+w Expo Go. Projekt jest celowo przypięty do Expo SDK 54, które obsługuje publiczna
+wersja Expo Go na fizycznym iPhonie. Natywny build iOS wymaga Xcode, dlatego wykonuje
+go GitHub Actions na runnerze macOS — lokalny Mac ani EAS Build nie są używane.
 
 ## Build iOS w GitHub Actions
 
